@@ -77,7 +77,7 @@ export default function Home() {
                                     <Link to={"#"}>View all product <i className="fa fa-angle-right"></i></Link>
                                 </div>
                             </div>
-                            {[1, 2, 3, 4, 5, 6].map(() => {
+                            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => {
                                 return (
                                     <div className="col-md-4">
                                         <div className="product-item">
