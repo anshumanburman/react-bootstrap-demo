@@ -1,0 +1,145 @@
+
+.page-body{
+    height: 100vh;
+    
+    
+}
+.home-page {
+    background-image: url('../img/food.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.carosel-size {
+    background-size: contain;
+    margin: 1rem;
+    
+    //height: 400px;
+}
+
+.latest-products {
+    margin-top: 100px;
+}
+.section-heading {
+    text-align: left;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #eee;
+    h2 {
+        font-size: 28px;
+        font-weight: 400;
+        color: #1e1e1e;
+        margin-bottom: 15px;
+    }
+    a {
+        float: right;
+        margin-top: -35px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        color: #f33f3f;
+    }
+}
+.product-item {
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    .down-content {
+        padding: 30px;
+        position: relative;
+        display: inline-block;
+        //justify-content: space-between;
+        //background: #f33f3f;
+        h4 {
+            font-size: 17px;
+            color: #1a6692;
+            margin-bottom: 20px;
+            text-align: start;
+            
+
+        }
+        h6 {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-size: 18px;
+            color: #121212;
+            text-align: start;
+
+        }
+        p {
+            margin-bottom: 20px;
+            text-align: start;
+            font-size: 14px;
+            font-weight: 300;
+            color: #4a4a4a;
+            line-height: 24px;
+        }
+        .start-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul {
+                padding: 0;
+                margin-top: 10px;
+                
+                li{
+                    display: inline-block;                    
+                    i {
+                        color: #f33f3f;
+                        font-size: 14px;
+                    }
+                }
+            }
+            span {
+                //position: absolute;
+                //right: 30px;
+                //bottom: 30px;
+                font-size: 13px;
+                color: #f33f3f;
+                font-weight: 500;
+            }
+        }
+        
+    }
+    img {
+        width: 100%;
+        overflow: hidden;
+     }
+     
+    }
+    
+    
+    .stars {
+        display: inline-block;
+    }
+       
+// .product-item .down-content {
+//     padding: 30px;
+//     position: relative;
+// }
+// .product-item .down-content h4 {
+//     font-size: 17px;
+//     color: #1a6692;
+//     margin-bottom: 20px;
+// }
+// .product-item .down-content h6 {
+//     position: absolute;
+//     top: 30px;
+//     right: 30px;
+//     font-size: 18px;
+//     color: #121212;
+// }
+// .product-item .down-content p {
+//     margin-bottom: 20px;
+// }
+// .product-item .down-content ul li {
+//     display: inline-block;
+// }
+// .product-item .down-content ul li i{
+//     color: #f33f3f;
+//     font-size: 14px;
+// }
